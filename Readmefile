@@ -1,0 +1,8 @@
+Set the dependencies- io.appium 9.0
+
+Server setup using these libraries provided by Appium used for setting up and managing appium server programmatically-> import io.appium.java_client.service.local.AppiumDriverLocalService;
+                                                                                                                        import io.appium.java_client.service.local.AppiumServiceBuilder;
+
+Manager->
+Allure report generation-> allure serve
+
