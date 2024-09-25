@@ -23,7 +23,7 @@
         <maven.compiler.source.version>11</maven.compiler.source.version>
         <maven.compiler.target.version>11</maven.compiler.target.version>
         <aspectj.version>1.9.21</aspectj.version>
-        <allure.maven>2.14.0</allure.maven>
+        <allure.maven>2.12.0</allure.maven>
     </properties>
 
     <dependencies>
