@@ -8,7 +8,8 @@ import org.junit.runner.RunWith;
     @CucumberOptions(
             features = "src/test/resources/features",
             glue = {"com.appium.stepdefinitions"},
-            plugin = {"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
+            plugin = {"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
+                    "json:target/allure-results/results.json"},
             tags = "@regression",
             monochrome = true
     )
