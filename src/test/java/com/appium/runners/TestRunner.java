@@ -10,7 +10,6 @@ import org.junit.runner.RunWith;
             glue = {"com.appium.stepdefinitions"},
             plugin = {"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm",
                     "json:target/allure-results/results.json"},
-            tags = "@regression",
             monochrome = true
     )
     public class TestRunner {
