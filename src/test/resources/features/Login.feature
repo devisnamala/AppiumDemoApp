@@ -1,4 +1,4 @@
-@regression
+@regression @smoke
 Feature: login functionality
 @LoginFeature
   Scenario Outline: Login

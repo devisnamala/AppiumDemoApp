@@ -1,4 +1,3 @@
-@smoke
 Feature: Form Filling
 
   Scenario: Filling out the form with specific data
